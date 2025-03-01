@@ -74,6 +74,31 @@ Cosmos Design System
 
 ## Pages
 
+# Platform
+
+- Only Android is supported for now.
+
+# Design Kit
+
+- Build using Jetpack Compose.
+
+# DSL
+
+- Kotlin DSL
+
+# Package Name
+
+- `com.makeappssimple.abhimanyu.cosmosdesignsystem`
+- Based on other Make App Simple repositories.
+
+# Minimum SDK Version
+
+- Choose 26 to get new animations and other features.
+
+### Reference
+
+- [apilevels.com](https://apilevels.com/)
+
 # Design systems
 
 ## Companies
