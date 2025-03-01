@@ -1,9 +1,7 @@
-1. Binary Compatibility Validator
-2. Compose Metrics
-3. Detekt
-4. Screenshot testing
-5. Unit Testing
-6. UI Testing
-7. Public API Documentation
-8. Catalog app
-9. CI
+1. Detekt
+2. Screenshot testing
+3. Unit Testing
+4. UI Testing
+5. Public API Documentation
+6. Catalog app
+7. CI

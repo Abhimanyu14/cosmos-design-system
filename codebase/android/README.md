@@ -34,3 +34,8 @@
 3. Add gitignore.
 4. Create readme files.
 5. License.
+
+# Compose Compiler Report
+
+- https://developer.android.com/develop/ui/compose/performance/stability/diagnose
+- https://github.com/JetBrains/kotlin/blob/master/plugins/compose/design/compiler-metrics.md#enabling-metrics
