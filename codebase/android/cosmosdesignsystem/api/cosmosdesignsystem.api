@@ -1,0 +1,4 @@
+public final class com/makeappssimple/abhimanyu/cosmosdesignsystem/text/CdsTextKt {
+	public static final fun CdsText (Ljava/lang/String;ZIILandroidx/compose/runtime/Composer;II)V
+}
+
