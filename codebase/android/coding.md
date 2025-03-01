@@ -1,6 +1,6 @@
 # toml file
 
-1. Sections
+1. Sections ordering
 
 a. Versions
 b. Libraries
