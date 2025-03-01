@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
+    alias(libs.plugins.detekt)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlinx.binary.compatibility.validator)
@@ -50,6 +51,8 @@ composeCompiler {
 }
 
 dependencies {
+    detektPlugins(libs.bundles.detekt)
+
     implementation(platform(libs.androidx.compose.bom))
 
     implementation(libs.androidx.compose.foundation)
