@@ -3,6 +3,10 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+kotlin {
+    explicitApi()
+}
+
 android {
     namespace = "com.makeappssimple.abhimanyu.cosmosdesignsystem"
     compileSdk = libs.versions.compile.sdk.get().toInt()
