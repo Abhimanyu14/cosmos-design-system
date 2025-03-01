@@ -5,10 +5,10 @@ plugins {
 
 android {
     namespace = "com.makeappssimple.abhimanyu.cosmosdesignsystem"
-    compileSdk = 35
+    compileSdk = libs.versions.compile.sdk.get().toInt()
 
     defaultConfig {
-        minSdk = 26
+        minSdk = libs.versions.min.sdk.get().toInt()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -36,6 +36,4 @@ android {
 
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
-
-    implementation(libs.androidx.ui)
 }
