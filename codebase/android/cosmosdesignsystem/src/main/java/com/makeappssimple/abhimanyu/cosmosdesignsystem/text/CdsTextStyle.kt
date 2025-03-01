@@ -16,16 +16,65 @@
 
 package com.makeappssimple.abhimanyu.cosmosdesignsystem.text
 
+/**
+ * Defines the standard text styles used in the CDS.
+ * These styles represent different typographic hierarchies within the application.
+ */
 public enum class CdsTextStyle {
+
+    /**
+     * Large heading, typically used for prominent page titles.
+     */
     Heading1,
+
+    /**
+     * Medium heading, used for section titles or subtitles.
+     */
     Heading2,
+
+    /**
+     * Small heading, used for subsections or important labels.
+     */
     Heading3,
+
+    /**
+     * Primary body text, used for main content and paragraphs.
+     */
     Body1,
+
+    /**
+     * Secondary body text, slightly smaller than Body1.
+     */
     Body2,
+
+    /**
+     * Tertiary body text, used for less prominent information.
+     */
     Body3,
+
+    /**
+     * Smallest body text, used in dense layouts or less important details.
+     */
     Body4,
+
+    /**
+     * Footnote text, used for annotations or additional notes.
+     */
     Footnote,
+
+    /**
+     * Caption text, typically used for image or table descriptions.
+     */
     Caption,
+
+    /**
+     * Small-sized text, used for less prominent UI elements.
+     */
     Small1,
+
+    /**
+     * Extra-small text, used for auxiliary labels or metadata.
+     */
     Small2,
 }
+

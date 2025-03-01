@@ -60,30 +60,94 @@ public fun CdsText(
 
 private val CdsTextStyle.fontSize: TextUnit
     get() = when (this) {
-        CdsTextStyle.Heading1 -> 30.sp
-        CdsTextStyle.Heading2 -> 28.sp
-        CdsTextStyle.Heading3 -> 24.sp
-        CdsTextStyle.Body1 -> 18.sp
-        CdsTextStyle.Body2 -> 18.sp
-        CdsTextStyle.Body3 -> 16.sp
-        CdsTextStyle.Body4 -> 16.sp
-        CdsTextStyle.Footnote -> 14.sp
-        CdsTextStyle.Caption -> 13.sp
-        CdsTextStyle.Small1 -> 12.sp
-        CdsTextStyle.Small2 -> 12.sp
+        CdsTextStyle.Heading1 -> {
+            30.sp
+        }
+
+        CdsTextStyle.Heading2 -> {
+            28.sp
+        }
+
+        CdsTextStyle.Heading3 -> {
+            24.sp
+        }
+
+        CdsTextStyle.Body1 -> {
+            18.sp
+        }
+
+        CdsTextStyle.Body2 -> {
+            18.sp
+        }
+
+        CdsTextStyle.Body3 -> {
+            16.sp
+        }
+
+        CdsTextStyle.Body4 -> {
+            16.sp
+        }
+
+        CdsTextStyle.Footnote -> {
+            14.sp
+        }
+
+        CdsTextStyle.Caption -> {
+            13.sp
+        }
+
+        CdsTextStyle.Small1 -> {
+            12.sp
+        }
+
+        CdsTextStyle.Small2 -> {
+            12.sp
+        }
     }
 
 private val CdsTextStyle.fontWeight: FontWeight
     get() = when (this) {
-        CdsTextStyle.Heading1 -> FontWeight.SemiBold
-        CdsTextStyle.Heading2 -> FontWeight.SemiBold
-        CdsTextStyle.Heading3 -> FontWeight.SemiBold
-        CdsTextStyle.Body1 -> FontWeight.SemiBold
-        CdsTextStyle.Body2 -> FontWeight.Normal
-        CdsTextStyle.Body3 -> FontWeight.Medium
-        CdsTextStyle.Body4 -> FontWeight.Normal
-        CdsTextStyle.Footnote -> FontWeight.Normal
-        CdsTextStyle.Caption -> FontWeight.Light
-        CdsTextStyle.Small1 -> FontWeight.Medium
-        CdsTextStyle.Small2 -> FontWeight.Normal
+        CdsTextStyle.Heading1 -> {
+            FontWeight.SemiBold
+        }
+
+        CdsTextStyle.Heading2 -> {
+            FontWeight.SemiBold
+        }
+
+        CdsTextStyle.Heading3 -> {
+            FontWeight.SemiBold
+        }
+
+        CdsTextStyle.Body1 -> {
+            FontWeight.SemiBold
+        }
+
+        CdsTextStyle.Body2 -> {
+            FontWeight.Normal
+        }
+
+        CdsTextStyle.Body3 -> {
+            FontWeight.Medium
+        }
+
+        CdsTextStyle.Body4 -> {
+            FontWeight.Normal
+        }
+
+        CdsTextStyle.Footnote -> {
+            FontWeight.Normal
+        }
+
+        CdsTextStyle.Caption -> {
+            FontWeight.Light
+        }
+
+        CdsTextStyle.Small1 -> {
+            FontWeight.Medium
+        }
+
+        CdsTextStyle.Small2 -> {
+            FontWeight.Normal
+        }
     }
