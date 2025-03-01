@@ -31,6 +31,7 @@ import com.makeappssimple.abhimanyu.cosmosdesignsystem.R
  * @param softWrap Whether the text should wrap or not.
  * @param maxLines The maximum number of lines for the text to span, or Int.MAX_VALUE for no limit.
  * @param minLines The minimum number of lines for the text to span, at least 1.
+ * @param style The style of the text.
  */
 @Composable
 public fun CdsText(
