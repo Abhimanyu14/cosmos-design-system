@@ -16,12 +16,14 @@ detekt-rules = "1.0.0"
 detekt-rules-compose-nlopez = "0.3.21"
 kotlin = "2.0.0"
 kotlinx-binary-compatibility-validator = "0.17.0"
+screenshot = "0.0.1-alpha09"
 
 [libraries]
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity-compose" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidx-compose-bom" }
 androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "androidx-compose-runtime" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 detekt-rules = { group = "com.github.Abhimanyu14", name = "detekt-rules", version.ref = "detekt-rules" }
 detekt-rules-compose-nlopez = { group = "io.nlopez.compose.rules", name = "detekt", version.ref = "detekt-rules-compose-nlopez" }
 
@@ -32,6 +34,7 @@ detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlinx-binary-compatibility-validator = { id = "org.jetbrains.kotlinx.binary-compatibility-validator", version.ref = "kotlinx-binary-compatibility-validator" }
+screenshot = { id = "com.android.compose.screenshot", version.ref = "screenshot" }
 
 [bundles]
 detekt = [
