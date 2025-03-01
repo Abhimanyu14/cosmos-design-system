@@ -9,11 +9,15 @@ min-sdk = "26"
 android-gradle-plugin = "8.7.3"
 androidx-activity-compose = "1.10.1"
 androidx-compose-bom = "2025.02.00"
+androidx-compose-foundation = "1.7.8"
+androidx-compose-runtime = "1.7.8"
 kotlin = "2.0.0"
 
 [libraries]
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity-compose" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidx-compose-bom" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "androidx-compose-foundation" }
+androidx-compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "androidx-compose-runtime" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
