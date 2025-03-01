@@ -74,34 +74,15 @@ Cosmos Design System
 
 ## Pages
 
-# Platform
-
-- Only Android is supported for now.
-
-# Design Kit
-
-- Build using Jetpack Compose.
-
-# DSL
-
-- Kotlin DSL
-
-# Package Name
-
-- `com.makeappssimple.abhimanyu.cosmosdesignsystem`
-- Based on other Make App Simple repositories.
-
-# Minimum SDK Version
-
-- Choose 26 to get new animations and other features.
-
 ### Reference
 
 - [apilevels.com](https://apilevels.com/)
 
-# Design systems
+# References
 
-## Companies
+## Design systems
+
+### Companies
 
 1. Uber - [Base](https://base.uber.com/6d2425e9f/p/294ab4-base-design-system)
 2. Google - [Material](https://m3.material.io/)
@@ -126,11 +107,11 @@ Cosmos Design System
 21. GitLab - [Pajamas](https://design.gitlab.com/)
 22. OneAdvanced = [Mosaic](https://mosaic.oneadvanced.io/)
 
-## Figma
+### Figma
 
 1. https://www.behance.net/gallery/160066247/META-Design-System
 
-# References
+## Blogs
 
 1. https://www.designsystems.com/open-design-systems/
 2. [Atomic Design Methodology](https://atomicdesign.bradfrost.com/chapter-2/)
