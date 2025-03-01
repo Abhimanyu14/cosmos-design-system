@@ -18,6 +18,13 @@ package com.makeappssimple.abhimanyu.cosmosdesignsystem.text
 
 import androidx.compose.foundation.text.BasicText
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.sp
+import com.makeappssimple.abhimanyu.cosmosdesignsystem.R
 
 /**
  * @param text The text to display.
@@ -31,13 +38,51 @@ public fun CdsText(
     softWrap: Boolean = true,
     maxLines: Int = Int.MAX_VALUE,
     minLines: Int = 1,
+    style: CdsTextStyle = CdsTextStyle.Body2,
 ) {
     BasicText(
         text = text,
         softWrap = softWrap,
+        style = TextStyle.Default.merge(
+            fontFamily = FontFamily(
+                Font(
+                    resId = R.font.lexend,
+                )
+            ),
+            fontSize = style.fontSize,
+            fontWeight = style.fontWeight,
+        ),
         maxLines = maxLines,
         minLines = minLines,
     )
 }
 
+private val CdsTextStyle.fontSize: TextUnit
+    get() = when (this) {
+        CdsTextStyle.Heading1 -> 30.sp
+        CdsTextStyle.Heading2 -> 28.sp
+        CdsTextStyle.Heading3 -> 24.sp
+        CdsTextStyle.Body1 -> 18.sp
+        CdsTextStyle.Body2 -> 18.sp
+        CdsTextStyle.Body3 -> 16.sp
+        CdsTextStyle.Body4 -> 16.sp
+        CdsTextStyle.Footnote -> 14.sp
+        CdsTextStyle.Caption -> 13.sp
+        CdsTextStyle.Small1 -> 12.sp
+        CdsTextStyle.Small2 -> 12.sp
+    }
 
+private val CdsTextStyle.fontWeight: FontWeight
+    get() = when (this) {
+        CdsTextStyle.Heading1 -> FontWeight.SemiBold
+        CdsTextStyle.Heading2 -> FontWeight.SemiBold
+        CdsTextStyle.Heading3 -> FontWeight.SemiBold
+        CdsTextStyle.Body1 -> FontWeight.SemiBold
+        CdsTextStyle.Body2 -> FontWeight.Normal
+        CdsTextStyle.Body3 -> FontWeight.Medium
+        CdsTextStyle.Body4 -> FontWeight.Normal
+        CdsTextStyle.Footnote -> FontWeight.Normal
+        CdsTextStyle.Caption -> FontWeight.Light
+        CdsTextStyle.Small1 -> FontWeight.Medium
+        CdsTextStyle.Small2 -> FontWeight.Normal
+    }
