@@ -23,3 +23,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Cosmos Design System"
 include(":app")
+include(":cosmosdesignsystem")
