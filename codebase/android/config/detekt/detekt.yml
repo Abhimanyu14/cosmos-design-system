@@ -905,5 +905,6 @@ project-convention:
     excludes: [ '**/test/**', '**/androidTest/**', '**/commonTest/**', '**/jvmTest/**', '**/androidUnitTest/**', '**/androidInstrumentedTest/**', '**/jsTest/**', '**/iosTest/**' ]
   PublicApiOrdering:
     active: true
+  # TODO(Abhi): Enable once the issue with the rule is fixed
   UseNamedParameters:
-    active: true
+    active: false
