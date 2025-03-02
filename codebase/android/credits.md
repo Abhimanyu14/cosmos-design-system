@@ -10,4 +10,6 @@ https://openfontlicense.org
 
 # App Icon
 
-- <a href="https://www.flaticon.com/free-icons/cosmos" title="cosmos icons">Cosmos icons created by Triangle Squad - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/cosmos" title="cosmos icons">Cosmos icons created by
+  Triangle Squad - Flaticon</a>
+- [Link](https://www.flaticon.com/free-icon/space_5648014?term=cosmos&related_id=5648014)
