@@ -7,3 +7,7 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 https://openfontlicense.org
 ```
+
+# App Icon
+
+- <a href="https://www.flaticon.com/free-icons/cosmos" title="cosmos icons">Cosmos icons created by Triangle Squad - Flaticon</a>
