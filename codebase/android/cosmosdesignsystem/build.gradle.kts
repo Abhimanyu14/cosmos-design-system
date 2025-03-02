@@ -19,6 +19,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.detekt)
+    alias(libs.plugins.dokka)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlinx.binary.compatibility.validator)
