@@ -34,7 +34,7 @@ import com.makeappssimple.abhimanyu.cosmosdesignsystem.text.CdsTextStyle
 
 class MainActivity : ComponentActivity() {
     private val shortText = "Hello Cosmos Design System!"
-    private val longText = "This is a very long text yaaaaaaaaaaaay. ".repeat(5)
+    private val longText = "This is a very long text otherworldly. ".repeat(5)
 
     override fun onCreate(
         savedInstanceState: Bundle?,
