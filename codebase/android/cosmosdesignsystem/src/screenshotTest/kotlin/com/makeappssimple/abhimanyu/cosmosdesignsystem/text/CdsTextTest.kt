@@ -19,7 +19,7 @@ package com.makeappssimple.abhimanyu.cosmosdesignsystem.text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 
-class CosmosText {
+class CosmosTextTest {
     @Preview(showBackground = true)
     @Composable
     fun Heading1() {
