@@ -77,12 +77,15 @@ composeCompiler {
 }
 
 dependencies {
+    androidTestImplementation(libs.androidx.compose.ui.test.manifest)
+
+    debugImplementation(libs.androidx.compose.ui.test.junit4)
+
     detektPlugins(libs.bundles.detekt)
 
     implementation(platform(libs.androidx.compose.bom))
 
     implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.compose.runtime)
-
     screenshotTestImplementation(libs.androidx.compose.ui.tooling)
 }
