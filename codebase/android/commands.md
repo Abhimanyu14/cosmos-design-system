@@ -1,6 +1,14 @@
+# Lint
+
+## To run lint checks
+
+```
+./gradlew lint
+```
+
 # Detekt
 
-## Run detekt checks
+## To run detekt checks
 
 ```
 ./gradlew detekt
