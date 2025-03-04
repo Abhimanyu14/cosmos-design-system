@@ -14,6 +14,13 @@
 ./gradlew detekt
 ```
 
+# Dokka
+
+## To generate docs
+```
+./gradlew :dokkaGenerateModuleHtml
+```
+
 # Kotlin Binary Compatibility Validator
 
 ## To update public API
