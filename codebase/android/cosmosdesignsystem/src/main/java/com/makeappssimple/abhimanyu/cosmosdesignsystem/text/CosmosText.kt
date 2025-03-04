@@ -34,12 +34,12 @@ import com.makeappssimple.abhimanyu.cosmosdesignsystem.R
  * @param style The style of the text.
  */
 @Composable
-public fun CdsText(
+public fun CosmosText(
     text: String,
     softWrap: Boolean = true,
     maxLines: Int = Int.MAX_VALUE,
     minLines: Int = 1,
-    style: CdsTextStyle = CdsTextStyle.Body2,
+    style: CosmosTextStyle = CosmosTextStyle.Body2,
 ) {
     BasicText(
         text = text,
@@ -58,96 +58,96 @@ public fun CdsText(
     )
 }
 
-private val CdsTextStyle.fontSize: TextUnit
+private val CosmosTextStyle.fontSize: TextUnit
     get() = when (this) {
-        CdsTextStyle.Heading1 -> {
+        CosmosTextStyle.Heading1 -> {
             30.sp
         }
 
-        CdsTextStyle.Heading2 -> {
+        CosmosTextStyle.Heading2 -> {
             28.sp
         }
 
-        CdsTextStyle.Heading3 -> {
+        CosmosTextStyle.Heading3 -> {
             24.sp
         }
 
-        CdsTextStyle.Body1 -> {
+        CosmosTextStyle.Body1 -> {
             18.sp
         }
 
-        CdsTextStyle.Body2 -> {
+        CosmosTextStyle.Body2 -> {
             18.sp
         }
 
-        CdsTextStyle.Body3 -> {
+        CosmosTextStyle.Body3 -> {
             16.sp
         }
 
-        CdsTextStyle.Body4 -> {
+        CosmosTextStyle.Body4 -> {
             16.sp
         }
 
-        CdsTextStyle.Footnote -> {
+        CosmosTextStyle.Footnote -> {
             14.sp
         }
 
-        CdsTextStyle.Caption -> {
+        CosmosTextStyle.Caption -> {
             13.sp
         }
 
-        CdsTextStyle.Small1 -> {
+        CosmosTextStyle.Small1 -> {
             12.sp
         }
 
-        CdsTextStyle.Small2 -> {
+        CosmosTextStyle.Small2 -> {
             12.sp
         }
     }
 
-private val CdsTextStyle.fontWeight: FontWeight
+private val CosmosTextStyle.fontWeight: FontWeight
     get() = when (this) {
-        CdsTextStyle.Heading1 -> {
+        CosmosTextStyle.Heading1 -> {
             FontWeight.SemiBold
         }
 
-        CdsTextStyle.Heading2 -> {
+        CosmosTextStyle.Heading2 -> {
             FontWeight.SemiBold
         }
 
-        CdsTextStyle.Heading3 -> {
+        CosmosTextStyle.Heading3 -> {
             FontWeight.SemiBold
         }
 
-        CdsTextStyle.Body1 -> {
+        CosmosTextStyle.Body1 -> {
             FontWeight.SemiBold
         }
 
-        CdsTextStyle.Body2 -> {
+        CosmosTextStyle.Body2 -> {
             FontWeight.Normal
         }
 
-        CdsTextStyle.Body3 -> {
+        CosmosTextStyle.Body3 -> {
             FontWeight.Medium
         }
 
-        CdsTextStyle.Body4 -> {
+        CosmosTextStyle.Body4 -> {
             FontWeight.Normal
         }
 
-        CdsTextStyle.Footnote -> {
+        CosmosTextStyle.Footnote -> {
             FontWeight.Normal
         }
 
-        CdsTextStyle.Caption -> {
+        CosmosTextStyle.Caption -> {
             FontWeight.Light
         }
 
-        CdsTextStyle.Small1 -> {
+        CosmosTextStyle.Small1 -> {
             FontWeight.Medium
         }
 
-        CdsTextStyle.Small2 -> {
+        CosmosTextStyle.Small2 -> {
             FontWeight.Normal
         }
     }

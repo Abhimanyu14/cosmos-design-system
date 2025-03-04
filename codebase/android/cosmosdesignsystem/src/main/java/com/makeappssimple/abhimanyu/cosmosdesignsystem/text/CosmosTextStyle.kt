@@ -17,10 +17,10 @@
 package com.makeappssimple.abhimanyu.cosmosdesignsystem.text
 
 /**
- * Defines the standard text styles used in the CDS.
+ * Defines the standard text styles used in the Cosmos Design System.
  * These styles represent different typographic hierarchies within the application.
  */
-public enum class CdsTextStyle {
+public enum class CosmosTextStyle {
 
     /**
      * Large heading, typically used for prominent page titles.

@@ -29,8 +29,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.makeappssimple.abhimanyu.cosmosdesignsystem.text.CdsText
-import com.makeappssimple.abhimanyu.cosmosdesignsystem.text.CdsTextStyle
+import com.makeappssimple.abhimanyu.cosmosdesignsystem.text.CosmosText
+import com.makeappssimple.abhimanyu.cosmosdesignsystem.text.CosmosTextStyle
 
 class MainActivity : ComponentActivity() {
     private val shortText = "Hello Cosmos Design System!"
@@ -62,80 +62,80 @@ class MainActivity : ComponentActivity() {
                         space = 8.dp,
                     ),
             ) {
-                CdsTypographyDemo()
+                CosmosTypographyDemo()
             }
         }
     }
 
     @Composable
-    private fun CdsTypographyDemo() {
-        CdsText(
+    private fun CosmosTypographyDemo() {
+        CosmosText(
             text = "Heading1",
-            style = CdsTextStyle.Heading1,
+            style = CosmosTextStyle.Heading1,
         )
-        CdsText(
+        CosmosText(
             text = "Heading2",
-            style = CdsTextStyle.Heading2,
+            style = CosmosTextStyle.Heading2,
         )
-        CdsText(
+        CosmosText(
             text = "Heading3",
-            style = CdsTextStyle.Heading3,
+            style = CosmosTextStyle.Heading3,
         )
-        CdsText(
+        CosmosText(
             text = "Body1",
-            style = CdsTextStyle.Body1,
+            style = CosmosTextStyle.Body1,
         )
-        CdsText(
+        CosmosText(
             text = "Body2",
-            style = CdsTextStyle.Body2,
+            style = CosmosTextStyle.Body2,
         )
-        CdsText(
+        CosmosText(
             text = "Body3",
-            style = CdsTextStyle.Body3,
+            style = CosmosTextStyle.Body3,
         )
-        CdsText(
+        CosmosText(
             text = "Body4",
-            style = CdsTextStyle.Body4,
+            style = CosmosTextStyle.Body4,
         )
-        CdsText(
+        CosmosText(
             text = "Footnote",
-            style = CdsTextStyle.Footnote,
+            style = CosmosTextStyle.Footnote,
         )
-        CdsText(
+        CosmosText(
             text = "Caption",
-            style = CdsTextStyle.Caption,
+            style = CosmosTextStyle.Caption,
         )
-        CdsText(
+        CosmosText(
             text = "Small1",
-            style = CdsTextStyle.Small1,
+            style = CosmosTextStyle.Small1,
         )
-        CdsText(
+        CosmosText(
             text = "Small2",
-            style = CdsTextStyle.Small2,
+            style = CosmosTextStyle.Small2,
         )
     }
 
     @Composable
-    private fun CdsTextDemo() {
-        CdsText(
+    private fun CosmosTextDemo() {
+        CosmosText(
             text = shortText,
         )
-        CdsText(
+        CosmosText(
             text = shortText,
             minLines = 2,
         )
-        CdsText(
+        CosmosText(
             text = longText,
             minLines = 2,
         )
-        CdsText(
+        CosmosText(
             text = longText,
         )
-        CdsText(
+        CosmosText(
             text = longText,
             softWrap = false,
         )
-        CdsText(
+        CosmosText(
             text = longText,
             maxLines = 2,
         )

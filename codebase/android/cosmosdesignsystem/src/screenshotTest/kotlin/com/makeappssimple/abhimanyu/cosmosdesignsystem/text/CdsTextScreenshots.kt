@@ -19,13 +19,13 @@ package com.makeappssimple.abhimanyu.cosmosdesignsystem.text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 
-class CdsText {
+class CosmosText {
     @Preview(showBackground = true)
     @Composable
     fun Heading1() {
-        CdsText(
+        CosmosText(
             text = "Heading1",
-            style = CdsTextStyle.Heading1,
+            style = CosmosTextStyle.Heading1,
         )
     }
 
@@ -33,90 +33,90 @@ class CdsText {
     @Preview(showBackground = true)
     @Composable
     fun Heading2() {
-        CdsText(
+        CosmosText(
             text = "Heading2",
-            style = CdsTextStyle.Heading2,
+            style = CosmosTextStyle.Heading2,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Heading3() {
-        CdsText(
+        CosmosText(
             text = "Heading3",
-            style = CdsTextStyle.Heading3,
+            style = CosmosTextStyle.Heading3,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Body1() {
-        CdsText(
+        CosmosText(
             text = "Body1",
-            style = CdsTextStyle.Body1,
+            style = CosmosTextStyle.Body1,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Body2() {
-        CdsText(
+        CosmosText(
             text = "Body2",
-            style = CdsTextStyle.Body2,
+            style = CosmosTextStyle.Body2,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Body3() {
-        CdsText(
+        CosmosText(
             text = "Body3",
-            style = CdsTextStyle.Body3,
+            style = CosmosTextStyle.Body3,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Body4() {
-        CdsText(
+        CosmosText(
             text = "Body4",
-            style = CdsTextStyle.Body4,
+            style = CosmosTextStyle.Body4,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Footnote() {
-        CdsText(
+        CosmosText(
             text = "Footnote",
-            style = CdsTextStyle.Footnote,
+            style = CosmosTextStyle.Footnote,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Caption() {
-        CdsText(
+        CosmosText(
             text = "Caption",
-            style = CdsTextStyle.Caption,
+            style = CosmosTextStyle.Caption,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Small1() {
-        CdsText(
+        CosmosText(
             text = "Small1",
-            style = CdsTextStyle.Small1,
+            style = CosmosTextStyle.Small1,
         )
     }
 
     @Preview(showBackground = true)
     @Composable
     fun Small2() {
-        CdsText(
+        CosmosText(
             text = "Small2",
-            style = CdsTextStyle.Small2,
+            style = CosmosTextStyle.Small2,
         )
     }
 }
