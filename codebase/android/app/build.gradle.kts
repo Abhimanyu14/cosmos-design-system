@@ -21,7 +21,7 @@ plugins {
 }
 
 android {
-    namespace = "com.makeappssimple.abhimanyu.cosmosdesignsystem"
+    namespace = "com.makeappssimple.abhimanyu.cosmosdesignsystem.catalog"
     compileSdk = libs.versions.compile.sdk.get().toInt()
 
     defaultConfig {
@@ -55,6 +55,10 @@ android {
 
     buildFeatures {
         compose = true
+    }
+
+    lint {
+        baseline = file("lint-baseline.xml")
     }
 }
 

@@ -26,6 +26,7 @@ plugins {
     alias(libs.plugins.kotlin.compose) apply false
 }
 
+// region Detekt
 detekt {
     toolVersion = "1.23.8"
     config.setFrom("$projectDir/config/detekt./detekt.yml")
@@ -49,3 +50,4 @@ tasks.withType<Detekt>().configureEach {
 tasks.withType<DetektCreateBaselineTask>().configureEach {
     jvmTarget = "1.8"
 }
+// endregion

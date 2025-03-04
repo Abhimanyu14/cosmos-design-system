@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.makeappssimple.abhimanyu.cosmosdesignsystem
+package com.makeappssimple.abhimanyu.cosmosdesignsystem.catalog
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

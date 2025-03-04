@@ -64,6 +64,10 @@ android {
         compose = true
     }
 
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
+
     experimentalProperties["android.experimental.enableScreenshotTest"] = true
 }
 
