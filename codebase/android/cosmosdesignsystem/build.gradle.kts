@@ -65,7 +65,10 @@ android {
     }
 
     lint {
+        checkAllWarnings = true
+        warningsAsErrors = true
         baseline = file("lint-baseline.xml")
+        disable += "AndroidGradlePluginVersion"
     }
 
     experimentalProperties["android.experimental.enableScreenshotTest"] = true
