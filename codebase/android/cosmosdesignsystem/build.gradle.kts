@@ -16,6 +16,8 @@
 
 @file:Suppress("UnstableApiUsage")
 
+import com.vanniktech.maven.publish.SonatypeHost
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.detekt)
@@ -24,6 +26,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlinx.binary.compatibility.validator)
     alias(libs.plugins.screenshot)
+    alias(libs.plugins.maven.publish)
 }
 
 kotlin {
@@ -91,4 +94,48 @@ dependencies {
     implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.compose.runtime)
     screenshotTestImplementation(libs.androidx.compose.ui.tooling)
+}
+
+mavenPublishing {
+    // Define coordinates for the published artifact
+    coordinates(
+        groupId = "io.github.abhimanyu14",
+        artifactId = "cosmos-design-system",
+        version = "1.0.0"
+    )
+
+    // Configure POM metadata for the published artifact
+    pom {
+        name.set("Cosmos Design System")
+        description.set("Cosmos Design System")
+        inceptionYear.set("2025")
+        url.set("https://github.com/Abhimanyu14/cosmos-design-system")
+
+        licenses {
+            license {
+                name.set("Apache License 2.0")
+                url.set("https://www.apache.org/licenses/LICENSE-2.0")
+            }
+        }
+
+        // Specify developers information
+        developers {
+            developer {
+                id.set("Abhimanyu14")
+                name.set("Abhimanyu")
+                email.set("abhimanyu.n14@gmail.com")
+            }
+        }
+
+        // Specify SCM information
+        scm {
+            url.set("https://github.com/Abhimanyu14/cosmos-design-system")
+        }
+    }
+
+    // Configure publishing to Maven Central
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+
+    // Enable GPG signing for all publications
+    signAllPublications()
 }
