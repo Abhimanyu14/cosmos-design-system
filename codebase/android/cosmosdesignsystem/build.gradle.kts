@@ -110,7 +110,7 @@ mavenPublishing {
     coordinates(
         groupId = "io.github.abhimanyu14",
         artifactId = "cosmos-design-system",
-        version = "1.0.0"
+        version = libs.versions.app.version.name.get()
     )
 
     // Configure POM metadata for the published artifact
