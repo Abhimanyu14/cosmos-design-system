@@ -96,6 +96,15 @@ dependencies {
     screenshotTestImplementation(libs.androidx.compose.ui.tooling)
 }
 
+tasks.register<Jar>("sourcesJar") {
+    archiveClassifier.set("sources")
+    from(project.the<SourceSetContainer>()["main"].allSource)
+}
+
+artifacts {
+    archives(tasks.named("sourcesJar"))
+}
+
 mavenPublishing {
     // Define coordinates for the published artifact
     coordinates(
