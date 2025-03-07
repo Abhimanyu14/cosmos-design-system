@@ -1,6 +1,6 @@
 [versions]
-app-version-code = "4"
-app-version-name = "1.0.3"
+app-version-code = "5"
+app-version-name = "1.0.4"
 
 compile-sdk = "35"
 target-sdk = "35"
