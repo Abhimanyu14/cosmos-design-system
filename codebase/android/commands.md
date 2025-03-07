@@ -17,6 +17,7 @@
 # Dokka
 
 ## To generate docs
+
 ```
 ./gradlew :dokkaGenerateModuleHtml
 ```
@@ -47,4 +48,12 @@
 
 ```
 ./gradlew :cosmosdesignsystem:validateDebugScreenshotTest
+```
+
+# Release
+
+## To publish to maven central
+
+```
+./gradlew publishAndReleaseToMavenCentral --no-configuration-cache
 ```
